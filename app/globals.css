@@ -15,7 +15,9 @@
 /* Compact al-folio-style header and profile title. */
 .about h1{font-size:clamp(32px,3.8vw,44px)}
 .content-section{scroll-margin-top:64px}
+#research{scroll-margin-top:48px}
 @media(max-width:520px){.site-header{height:58px}.nav-wrap{gap:0}.about h1{font-size:34px}.content-section{scroll-margin-top:58px}}
+@media(max-width:520px){#research{scroll-margin-top:44px}}
 .social-links svg{width:16px;height:16px;display:block}
 .author-marker{font-size:.68em;line-height:0;position:relative;top:-.35em;margin-left:1px;color:var(--accent);font-weight:800}
 .conference-list{border-top:1px solid var(--line)}.conference-item{display:grid;grid-template-columns:150px 1fr;gap:34px;padding:24px 0;border-bottom:1px solid var(--line)}.conference-meta{display:flex;align-items:flex-start;gap:12px}.conference-meta time{font-size:12px;font-weight:700;color:var(--accent)}.conference-meta span{font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);background:var(--accent-soft);padding:3px 6px;border-radius:2px}.conference-item h3{font:600 16px var(--font-display);margin:0 0 5px}.conference-item p{font-size:14px;margin:0 0 5px;color:#3f4a46}.conference-item small{font-size:11px;color:var(--muted)}

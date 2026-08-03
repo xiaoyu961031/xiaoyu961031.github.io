@@ -1,3 +1,6 @@
+/* The homepage links intentionally use normal navigation so clicking "about"
+   resets both the URL hash and scroll position on the current page. */
+/* eslint-disable @next/next/no-html-link-for-pages */
 import { siteContent as c } from "@/content/site";
 import Image from "next/image";
 import { MdEmail } from "react-icons/md";
@@ -9,9 +12,9 @@ export default function Home() {
     <>
       <header className="site-header">
         <div className="nav-wrap">
-          <a className="brand" href="#about"><strong>Xiaoyu</strong> Wu</a>
+          <a className="brand" href="/"><strong>Xiaoyu</strong> Wu</a>
           <nav aria-label="Main navigation">
-            <a href="#about">about</a>
+            <a href="/">about</a>
             <a href="#research">research</a>
             <a href="/publications">publications</a>
             <a href="/conferences">conferences</a>
